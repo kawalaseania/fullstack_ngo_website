@@ -1,0 +1,119 @@
+
+      @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&family=Prompt:wght@700&display=swap');
+
+      
+      .home-demo .item {
+    background: #ff3f4d;
+}
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+        p{
+            font-size:18px;
+            font-family: 'Bitter', serif;
+        }
+
+        #roundDiv{
+          border: 2px solid #980A25;
+          border-radius: 15px;
+        }
+
+        h1, h2{
+          font-family: 'Bitter', serif;
+font-family: 'Prompt', sans-serif;
+        }
+        .bg-primary, .btn-primary{
+          background: hsl(150, 98%, 22%) !important;
+            color: aliceblue;
+            border: none !important;
+        }
+
+        .text-primary{
+          color:  hsl(150, 98%, 22%) !important;
+        }
+        .navbar-collapse ul li>a{
+            color: hsl(150, 98%, 22%) !important;
+            font-size: 19px;
+            font-weight: bolder;
+        }
+
+        .btn-outline-primary{
+          border: 1px solid hsl(150, 98%, 22%) !important;
+          color: hsl(150, 98%, 22%) !important;
+        }
+
+        .btn-outline-primary:hover{
+          border: hsl(150, 98%, 22%) !important;
+          background: hsl(150, 98%, 22%) !important;
+          color:white !important;
+        }
+
+        .btn{
+          text-transform: uppercase !important;
+        }
+        
+        .mybtn{
+          border: 2px solid white;
+          border-radius: 20px !important;
+          color: white;
+        }
+        h1, h2, h3, h4, h5{
+          text-transform: uppercase !important;
+        }
+        .bg-danger{
+          background-color: #c50227 !important;
+        }
+        .text-danger{
+          color: #c50227 !important
+        }
+        .bg-danger1{
+          background-color: #980A25;
+        }
+
+        .bg-danger2{
+          background-color: #78091E;
+        }
+
+        .card{
+          border:none;
+        }
+
+        .red_line{
+          height: 3px;
+        }
+
+       .counterDiv{
+          min-height: 100%;
+          background: url(../imgs/counterDiv.png) #011507cf;
+          background-size: cover;
+          background-blend-mode: multiply;
+          background-attachment: fixed;
+        }
+
+        .page_heading{
+          min-height: 100%;
+          background: url(../imgs/bglg.jpg) #011507cf;
+          background-size: cover;
+          background-blend-mode: multiply;
+          background-attachment: fixed;
+        }
+
+        .active{
+          border-bottom: 2px solid rgb(1, 45, 1);
+        }
+
+        .nav-item a:hover{
+          border-bottom: 2px solid rgb(1, 45, 1) !important;
+          transition:all 2s;
+        }
+
+
+        @media all and (max-width:480px) {
+   .countup .btn-outline-danger { width: 100%; display:block; }
+} 
